@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,14 +10,9 @@
     <h1>Acerte o Output</h1>
     <div id="jogo">
         <div id="pergunta">
-            <p id="codigo">let x = 10; <br> x += 5; <br> x *= 2; <br> console.log(x);</p>
+            <p id="codigo"></p>
             <p>Qual será o output deste código?</p>
-            <div id="escolha">
-                <button onclick="verificarResposta(15)">15</button>
-                <button onclick="verificarResposta(20)">20</button>
-                <button onclick="verificarResposta(25)">25</button>
-                <button onclick="verificarResposta(30)">30</button>
-            </div>
+            <div id="opcoes"></div>
             <p id="feedback"></p>
         </div>
         <button onclick="proximaPergunta()" id="proximo-botao" style="display:none;">Próxima Pergunta</button>
